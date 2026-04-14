@@ -8,10 +8,10 @@
   "server": {
     "ip": "bulba_.aternos.me",
     "port": 52065,
-    "version": "1.21.1"
+    "version": "1.21.11"
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": -54,
     "y": -60,
     "z": 168
@@ -86,6 +86,6 @@
     }
   },
   "chat": {
-    "respond": false
+    "respond": true
   }
 }
