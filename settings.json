@@ -12,7 +12,7 @@
     "try-creative": false
   },
   "position": {
-    "enabled": true,
+    "enabled": false,
     "x": 0,
     "y": 1000,
     "z": 0
@@ -23,15 +23,15 @@
       "password": "chalol78"
     },
     "anti-afk": {
-      "enabled": false,
-      "sneak": false
+      "enabled": true,
+      "sneak": true
     },
     "chat-messages": {
       "enabled": true,
       "repeat": false,
       "repeat-delay": 120,
       "messages": [
-        "/tp bulba ~ 1000 ~"
+        "/gamemode spectator bulba"
       ]
     },
     "chat-log": false,
@@ -51,8 +51,8 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": false,
-      "interval": 5000
+      "enabled": true,
+      "interval": 10000
     }
   },
   "modules": {
