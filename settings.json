@@ -30,7 +30,7 @@
       "repeat": false,
       "repeat-delay": 500,
       "messages": [
-        "/vanish enabled"
+        "/vanish afk_bot enabled"
       ]
     },
     "chat-log": true,
