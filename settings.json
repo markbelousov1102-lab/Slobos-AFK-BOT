@@ -1,7 +1,7 @@
 {
   "name": "AFK_Bot",
   "bot-account": {
-    "username": "afk_bot",
+    "username": "bulba",
     "password": "",
     "type": "offline"
   },
@@ -26,11 +26,11 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
+      "enabled": true,
       "repeat": false,
       "repeat-delay": 500,
       "messages": [
-        "/vanish afk_bot enabled"
+        "/tp ~ 1000 ~"
       ]
     },
     "chat-log": true,
