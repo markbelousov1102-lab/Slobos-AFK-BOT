@@ -30,7 +30,7 @@
       "repeat": false,
       "repeat-delay": 500,
       "messages": [
-        "/tp ~ 1000 ~"
+        "/tp bulba ~ 1000 ~"
       ]
     },
     "chat-log": true,
