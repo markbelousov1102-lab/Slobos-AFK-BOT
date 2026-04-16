@@ -23,16 +23,14 @@
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": false
+      "sneak": true
     },
     "chat-messages": {
       "enabled": true,
       "repeat": false,
       "repeat-delay": 500,
       "messages": [
-        "/w Whaulus im here fella dont worry",
-        "/gamemode spectator",
-        "/v"
+        "/vanish enabled"
       ]
     },
     "chat-log": true,
@@ -53,11 +51,11 @@
       "speed": 3000
     },
     "look-around": {
-      "enabled": false,
+      "enabled": true,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": false,
+      "enabled": true,
       "interval": 10000
     }
   },
