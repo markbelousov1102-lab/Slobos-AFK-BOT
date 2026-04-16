@@ -1,5 +1,5 @@
 {
-  "name": "AFK_Bot",
+  "name": "AFK Bot",
   "bot-account": {
     "username": "bulba",
     "password": "",
@@ -8,54 +8,50 @@
   "server": {
     "ip": "bulba_.aternos.me",
     "port": 52065,
-    "version": "1.21.11"
+    "version": "1.21.11",
+    "try-creative": false
   },
   "position": {
     "enabled": false,
-    "x": -54,
-    "y": -60,
-    "z": 168
+    "x": 0,
+    "y": 100,
+    "z": 0
   },
   "utils": {
     "auto-auth": {
       "enabled": false,
-      "password": "Slobos"
+      "password": "chalol78"
     },
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": false
     },
     "chat-messages": {
       "enabled": true,
       "repeat": false,
-      "repeat-delay": 500,
+      "repeat-delay": 120,
       "messages": [
         "/tp bulba ~ 1000 ~"
       ]
     },
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 20000,
-    "periodic-rejoin": {
-      "enabled": false,
-      "min-interval": 20,
-      "max-interval": 60
-    }
+    "max-reconnect-delay": 30000
   },
   "movement": {
     "enabled": true,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
-      "speed": 3000
+      "speed": 2000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
     }
   },
@@ -63,7 +59,7 @@
     "avoidMobs": false,
     "combat": false,
     "beds": false,
-    "chat": false,
+    "chat": true,
     "console-commands": true
   },
   "combat": {
@@ -76,7 +72,7 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
+    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
     "events": {
       "connect": true,
       "disconnect": true,
