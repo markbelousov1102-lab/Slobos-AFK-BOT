@@ -12,9 +12,9 @@
     "try-creative": false
   },
   "position": {
-    "enabled": false,
+    "enabled": true,
     "x": 0,
-    "y": 100,
+    "y": 1000,
     "z": 0
   },
   "utils": {
@@ -23,7 +23,7 @@
       "password": "chalol78"
     },
     "anti-afk": {
-      "enabled": true,
+      "enabled": false,
       "sneak": false
     },
     "chat-messages": {
